@@ -1,0 +1,54 @@
+.header {
+    height: 5rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-header {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.middle-header .nav-btn {
+    margin-right: 2rem;
+}
+
+.left-header {
+    display: block;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+.logo {
+    height: 100%;
+    width: 12rem;
+}
+
+.right-header {
+    margin: auto 0;
+    margin-right: 1rem;
+}
+
+.nav-btn {
+    display: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 1rem;
+    color: var(--secondary-color);
+    border-radius: 1.5rem;
+    text-transform: capitalize;
+    transition: background 0.3s linear;
+}
+
+.nav-btn:hover {
+    background: #0000001c;
+}
+
+.menu-btn {
+    display: inline-block;
+}

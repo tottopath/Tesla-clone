@@ -1,0 +1,66 @@
+/* my breakpoints */
+/* sm=600
+md=900
+lg=1200
+xl=1600 */
+
+@media screen and (min-width: 600px) {
+    .btn {
+        max-width: 30rem;
+        padding: 1.5rem;
+        flex-basis: 40%;
+    }
+
+    .button-container {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .button-container {
+        width: 70%;
+    }
+
+    .footer ul {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-btn {
+        display: inline-block;
+    }
+
+    .left-header {
+        padding: 0 2rem;
+        margin: 0 3rem;
+    }
+
+    .right-header {
+        margin: auto 2rem;
+    }
+
+    /* dont show links in middle header on xl screens */
+    .middle-header-nav-link {
+        display: none;
+    }
+
+    .button-container {
+        width: 60%;
+    }
+
+    .footer ul {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .footer ul {
+        width: 40%;
+    }
+
+    .button-container {
+        width: 50%;
+    }
+
+}

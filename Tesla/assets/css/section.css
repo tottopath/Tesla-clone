@@ -1,0 +1,99 @@
+/* Prevent fullpage scroll when navbar is-active */
+#myfullpage.no-scroll{
+    overflow-y: hidden;
+    max-height: 100vh;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.one {
+    background-image: url(../media/1.avif);
+}
+
+.two {
+    background-image: url(../media/2.avif);
+}
+
+.three {
+    background-image: url(../media/3.avif);
+}
+
+.four {
+    background-image: url(../media/4.avif);
+}
+
+.seven {
+    background-image: url(../media/7.avif);
+}
+
+/* content */
+.content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.subtitle a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.subtitle a:hover {
+    /* text-decoration: underline; */
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 2rem;
+    flex-basis: 80%;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background: rgba(23, 26, 42, 0.8);
+    color: white;
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.65);
+    color: var(--primary-color);
+}

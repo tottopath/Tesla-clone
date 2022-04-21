@@ -1,0 +1,126 @@
+
+
+  .grid-container {
+    background-image: linear-gradient( rgb(24, 24, 24),rgb(12, 12, 12),rgb(0, 0, 0));  
+    height: 220px;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: auto auto auto auto auto;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color:white;
+  }
+  
+  .grid-item {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    display: grid;
+  }
+
+  input[type=submit] {
+      border: none;
+color: rgb(0, 0, 0);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+background-color: rgb(255, 255, 255);
+border-radius: 50px;
+  }
+
+input[type=submit]:hover{
+background-color: rgb(0, 0, 0);
+color:rgb(255, 255, 255) ;
+border: none;
+}
+
+.grid-container2 {
+    background-color: black;
+    height: auto;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: auto auto;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color: rgb(255, 255, 255);
+  }
+
+  .grid-item2 {
+    padding-top: 50px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+    font-size: 20px;
+    text-align: left;
+    align-content: center;
+    display: grid;
+  }
+
+
+#txt {
+    display: block;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+.grid-container3 {
+    height: auto;
+    display: grid;
+    column-gap: 4vw;
+    grid-template-columns: auto auto auto;
+    color: rgb(255, 255, 255);
+  }
+
+  .grid-item3 {
+    padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+    font-size: 20px;
+    text-align: left;
+    align-content: center;
+    display: grid;
+  }
+
+
+  .grid-container4 {
+    background-color: white;
+    height: auto;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: auto auto;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    color: rgb(0, 0, 0);
+  }
+
+  .grid-item4 {
+    padding-top: 50px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+    font-size: 16px;
+    text-align: left;
+    align-content: center;
+    display: grid;
+  }
+
+
+  
